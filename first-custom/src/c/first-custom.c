@@ -81,8 +81,9 @@ static void main_window_load(Window *window) {
 }
 
 static void main_window_unload(Window *window) {
-  // Unload GFont
+  // Unload GFonts
   fonts_unload_custom_font(s_time_font);
+  fonts_unload_custom_font(s_date_font);
 
   // Destroy TextLayers
   text_layer_destroy(s_time_layer);
