@@ -1,0 +1,49 @@
+{
+  "name": "first-custom",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "first-custom",
+    "uuid": "1ccf629a-6192-4c67-ac36-0db3e6fd13bd",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery",
+      "flint"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "font",
+          "name": "FONT_PERFECT_DOS_48",
+          "file": "fonts/perfect-dos-vga.ttf",
+          "compatibility": "2.7"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BACKGROUND",
+          "file": "images/background.png"
+        },
+        {
+          "type": "font",
+          "name": "FONT_PERFECT_DOS_20",
+          "file": "fonts/perfect-dos-vga.ttf",
+          "compatibility": "2.7"
+        }
+      ]
+    }
+  }
+}
